@@ -1,0 +1,15 @@
+C:\Users\Administrator\abidotnetcode\CodincityApp\CodincityApp\bin\Debug\net6.0\CodincityApp.exe
+C:\Users\Administrator\abidotnetcode\CodincityApp\CodincityApp\bin\Debug\net6.0\CodincityApp.deps.json
+C:\Users\Administrator\abidotnetcode\CodincityApp\CodincityApp\bin\Debug\net6.0\CodincityApp.runtimeconfig.json
+C:\Users\Administrator\abidotnetcode\CodincityApp\CodincityApp\bin\Debug\net6.0\CodincityApp.dll
+C:\Users\Administrator\abidotnetcode\CodincityApp\CodincityApp\bin\Debug\net6.0\CodincityApp.pdb
+C:\Users\Administrator\abidotnetcode\CodincityApp\CodincityApp\obj\Debug\net6.0\CodincityApp.csproj.AssemblyReference.cache
+C:\Users\Administrator\abidotnetcode\CodincityApp\CodincityApp\obj\Debug\net6.0\CodincityApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\abidotnetcode\CodincityApp\CodincityApp\obj\Debug\net6.0\CodincityApp.AssemblyInfoInputs.cache
+C:\Users\Administrator\abidotnetcode\CodincityApp\CodincityApp\obj\Debug\net6.0\CodincityApp.AssemblyInfo.cs
+C:\Users\Administrator\abidotnetcode\CodincityApp\CodincityApp\obj\Debug\net6.0\CodincityApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\abidotnetcode\CodincityApp\CodincityApp\obj\Debug\net6.0\CodincityApp.dll
+C:\Users\Administrator\abidotnetcode\CodincityApp\CodincityApp\obj\Debug\net6.0\refint\CodincityApp.dll
+C:\Users\Administrator\abidotnetcode\CodincityApp\CodincityApp\obj\Debug\net6.0\CodincityApp.pdb
+C:\Users\Administrator\abidotnetcode\CodincityApp\CodincityApp\obj\Debug\net6.0\CodincityApp.genruntimeconfig.cache
+C:\Users\Administrator\abidotnetcode\CodincityApp\CodincityApp\obj\Debug\net6.0\ref\CodincityApp.dll
