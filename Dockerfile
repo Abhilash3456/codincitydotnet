@@ -1,3 +1,17 @@
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /source
+COPY CodincityApp/CodincityApp.csproj ./CodincityApp/
+COPY TestProject/TestProject.csproj ./TestProject/
+RUN dotnet restore
+WORKDIR "/source/CodincityApp"
+COPY . .
+RUN dotnet build -c Release -o /app/build
+
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /source/source
 EXPOSE 80
