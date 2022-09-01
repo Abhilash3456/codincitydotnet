@@ -7,7 +7,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /source
 COPY CodincityApp/CodincityApp.csproj ./CodincityApp/
 COPY TestProject/TestProject.csproj ./TestProject/
-RUN dotnet restore
+RUN dotnet restore CodincityApp/CodincityApp.csproj
 WORKDIR "/source/CodincityApp"
 COPY . .
 RUN dotnet build -c Release -o /app/build
