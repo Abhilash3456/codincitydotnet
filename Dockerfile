@@ -1,5 +1,5 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /source
+WORKDIR /source/source
 EXPOSE 80
 EXPOSE 443
 COPY CodincityApp.sln .
