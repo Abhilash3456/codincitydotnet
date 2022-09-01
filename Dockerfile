@@ -7,7 +7,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR C:/Users/Administrator/AppData/Local/Jenkins/.jenkins/workspace/sample 2
 COPY CodincityApp/CodincityApp.csproj ./CodincityApp/
 COPY TestProject/TestProject.csproj ./TestProject/
-RUN dotnet restore CodincityApp/CodincityApp.csproj
+RUN dotnet restore CodincityApp.sln
 WORKDIR "/source/CodincityApp"
 COPY . .
 RUN dotnet build -c Release -o /app/build
