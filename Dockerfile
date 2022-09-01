@@ -4,7 +4,7 @@ COPY CodincityApp.sln .
 COPY CodincityApp/CodincityApp.csproj ./CodincityApp/
 COPY TestProject/TestProject.csproj ./TestProject/
 RUN dotnet restore
-RUN dotnet build --configuration Release CodincityApp.sln
+#RUN dotnet build --configuration Release CodincityApp.sln
 RUN dotnet publish CodincityApp/CodincityApp.csproj -c Release -o /source/app
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /CodincityApp
